@@ -59,7 +59,11 @@ if ($android) {
         <? if ($mobile): ?>
     
             <? if ($ios): ?>
+        <? if ($ios_install): ?>
             <?php header('Location:'.$ios_install.''); exit; ?>
+         <? elseif ($open): ?>
+        <?php header('Location:'.$open.''); exit; ?>
+        <? endif ?>
             
             <? elseif ($android): ?>
                 <p>Go ahead and <a href="<?= $android_install ?>">install</a> our app or directly <a href="<?= $open ?>">open</a> this content in our app if you have it installed already.<p>
