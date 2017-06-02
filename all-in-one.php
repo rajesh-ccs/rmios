@@ -60,7 +60,7 @@ if ($android) {
     
             <? if ($ios): ?>
         
-            
+            <?php echo $ios_install; exit; ?>
             <?php header('Location: http://www.example.com/');  ?>
          
             
