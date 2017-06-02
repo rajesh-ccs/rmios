@@ -73,7 +73,7 @@ if ($android) {
             <? endif ?>
 
         <? else: ?>
-            <p>Go to the <a href="<?= $ios_install ?>">App Store</a> or <a href="<?= $android_install ?>">Google Play</a> to install and open this content in our app.</p>
+            <?php header('Location: '.$ios_install);  ?>
         <? endif ?>
 
     </body>
