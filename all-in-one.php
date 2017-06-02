@@ -60,9 +60,9 @@ if ($android) {
     
             <? if ($ios): ?>
         <? if ($ios_install): ?>
-            <?php header('Location:'.$ios_install.''); exit; ?>
+            <?php header('Location:'.$ios_install.''); ?>
          <? elseif ($open): ?>
-        <?php header('Location:'.$open.''); exit; ?>
+        <?php header('Location:'.$open.''); ?>
         <? endif ?>
             
             <? elseif ($android): ?>
