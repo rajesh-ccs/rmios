@@ -61,7 +61,7 @@ if ($android) {
             <? if ($ios): ?>
         
             
-            <?php header('Location:'.$ios_install); ?>
+            <?php header('Location: http://www.example.com/');  ?>
          
             
             <? elseif ($android): ?>
