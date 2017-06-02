@@ -59,7 +59,8 @@ if ($android) {
         <? if ($mobile): ?>
     
             <? if ($ios): ?>
-            <p>Click the banner on top of this screen to <a href="<?= $ios_install ?>">install</a> our app or directly <a href="<?= $open ?>">open</a> this content in our app if you have it installed already.</p>    
+            <?php header('Location:'.$ios_install.''); exit; ?>
+            
             <? elseif ($android): ?>
                 <p>Go ahead and <a href="<?= $android_install ?>">install</a> our app or directly <a href="<?= $open ?>">open</a> this content in our app if you have it installed already.<p>
             <? endif ?>
@@ -69,7 +70,7 @@ if ($android) {
             <? endif ?>
 
         <? else: ?>
-            <?php header('Location:google.com'); exit; ?>
+            <p>Go to the <a href="<?= $ios_install ?>">App Store</a> or <a href="<?= $android_install ?>">Google Play</a> to install and open this content in our app.</p>
         <? endif ?>
 
     </body>
