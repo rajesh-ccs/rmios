@@ -7,7 +7,6 @@
     var redirect_url = "http://www.ionicframework.com"
     function urlExists(url, callback){
         $.ajax({
-            type: 'HEAD',
             url: url,
             success: function(){
             callback(true);
@@ -19,10 +18,10 @@
     }
     urlExists(url, function(exists){
         if (exists){
-            alert("url onde.."+url);
+            alert(exists+"...url onde.."+url);
             window.location.replace(url);
         }else{
-            alert("url error.."+url);
+            alert(exists+"..url error.."+url);
             window.location.replace(redirect_url);
         }
     });
