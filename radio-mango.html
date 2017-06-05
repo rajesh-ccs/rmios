@@ -19,10 +19,10 @@
     }
     urlExists(url, function(exists){
         if (exists){
-            alert("url exists");
+            alert("url exists",url);
             window.location.replace(url);
         }else{
-            alert("url doesn't exist");
+            alert("url doesn't exist",url);
             window.location.replace(redirect_url);
         }
     });
