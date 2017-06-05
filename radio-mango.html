@@ -4,34 +4,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 
-    var iframeLoaded = false;
     $( document ).ready(function() {
-        // iframeLoaded = false;
-        setTimeout(function() { checkIframe(); }, 1000);
+        setTimeout(function() { window.location="http://www.ionicframework.com/"; }, 500);
+        window.location = "rmmango://";
     });
-    function onMyFrameLoad(){
-        iframeLoaded = true;
-        if($("#myframe").contents().find("404").length) {
-            alert("404 present in content");
-            iframeLoaded = false;
-        }
-    }
-    function checkIframe(){
-        if (iframeLoaded){
-            alert("success");
-        }else{
-            alert("failed");
-            window.location.replace("http://www.ionicframework.com/");
-        }
-    }
+
 
 </script>
 </head>
-<body>
-<iframe id="myframe" src="rmmango://" onload="onMyFrameLoad()"   style="border: 0; position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%">
-  <p>Your browser does not support iframes.</p>
-</iframe>
-
-
-</body>
 </html>
