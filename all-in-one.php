@@ -18,7 +18,7 @@ $ios = $iphone || $ipad;
 $mobile = $android || $ios;
 
 // Install
-$ios_install = 'http://itunes.apple.com/app/id' . $ios_id;
+$ios_install = 'https://itunes.apple.com/in/app/radio-mango/id956511007?mt=8';
 $android_install = 'http://play.google.com/store/apps/details?id=' . $android_package;
 
 // Open
