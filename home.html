@@ -329,10 +329,11 @@ function UrlExists(url) {
     http.send();
     if (http.status != 404)
         // url valid
+	alert("url is valid");
 window.location.replace(url);
     else
 // url not valid
-        //alert("url not valid")
+        alert("url not valid");
 }
 var url = 'rmios://podcast';
 UrlExists(url)
