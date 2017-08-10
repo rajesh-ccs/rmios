@@ -322,25 +322,7 @@ sup {
 </style>
 </head>
 <body>
-<script>
-function UrlExists(url) {
-    alert("inside fn");
-    var http = new XMLHttpRequest();
-    http.open('HEAD', url, false);
-    http.send();
-    if (http.status != 404){
-        // url valid
-	      alert("url is valid");
-        window.location.replace(url);
-    }else{
-        // url not valid
-        alert("url not valid");
-    }
-}
-alert('sdffjsl');
-var url = 'rmios://podcast';
-UrlExists(url);
-</script>
+
 <h1 id="toc_0">Single Board Computers</h1>
 
 <pre><code class="language-metadata">RW Tutorial: Universal Links</code></pre>
