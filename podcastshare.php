@@ -1,3 +1,5 @@
+<?php echo 'hi'; exit;?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
