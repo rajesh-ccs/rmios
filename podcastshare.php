@@ -40,10 +40,10 @@
 	<meta name = "twitter:text:title" content = "Radio Mango" />
 	<meta name = "twitter:app:name:iphone" content = " Radio Mango "/ >
 	<meta name = "twitter:app:id:iphone" content = "956511007"/>
-	<meta name = "twitter:app:url:iphone" content = "rmios://podcast"/ >
+	<meta name = "twitter:app:url:iphone" content = "rmios://podcast?id=<?php echo $id; ?>"/ >
 	<meta name = "twitter:app:name:ipad" content = " Radio Mango"/ >
 	<meta name = "twitter:app:id:ipad" content = "956511007" />
-	<meta name = "twitter:app:url:ipad" content = "rmios://podcast"/ >
+	<meta name = "twitter:app:url:ipad" content = "rmios://podcast?id=<?php echo $id; ?>"/ >
 
     <title>Radio Mango</title>
     <!-- Defult CSS -->
