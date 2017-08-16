@@ -1,4 +1,4 @@
-<?php echo 'hi'; exit;?>
+<?php $id = $_GET['id']; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,7 @@
     <meta property="al:android:url" content="https://rmtest-ca950.firebaseapp.com"/>
     <meta property="al:android:package" content="org.radiomango.app"/>
     <meta property="al:android:app_name" content="Radio Mango"/>
-    <meta property = "al:ios:url" content = "rmios://podcast/" />
+    <meta property = "al:ios:url" content = "rmios://podcast?id=<?php echo $id; ?>" />
     <meta property = "al:ios:app_store_id" content = "956511007" />
     <meta property = "al:ios:app_name" content = "Radio Mango" />
     <meta property="og:title" content="Radio Mango"/>
