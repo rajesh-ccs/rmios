@@ -15,10 +15,10 @@ function createMetaWithNameAndID(name, podID){
 	var meta = document.createElement('meta');
 	 meta.name = name;
 	if(podID){
-		 meta.content = "rmios://?id="+id;
+		 meta.content = "rmios://podcast?id="+id;
  	}else{
 	 	alert("id not present");
- 		meta.content = "rmios://?id=";
+ 		meta.content = "rmios://podcast?id=";
  	}
 	 alert(meta.content)
 	document.getElementsByTagName('head')[0].appendChild(meta);
