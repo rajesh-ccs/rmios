@@ -23,7 +23,7 @@
 
 	<!-- Meta tag for Android twitter share -->
     <meta name="twitter:card" content="app"/>
-	<!--<meta name="twitter:site" content="@ccsmts@gmail.com"/>-->
+	<meta name="twitter:site" content="@ @ccsmanorama"/>
 	<meta name="twitter:description" content="Listen Radio Mango podcast and share it with friends." />
 	<meta name="twitter:app:name:googleplay" content="Radio Mango"/>
 	<meta name="twitter:app:id:googleplay" content="org.radiomango.app"/>
