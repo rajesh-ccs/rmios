@@ -12,7 +12,7 @@
     <meta name="author" content=""/> 
 	<meta charset="utf-8"/>
 	<!-- Meta tag for Android facebook share -->
-    <meta property="al:android:url" content="https://rmtest-ca950.firebaseapp.com"/>
+    <meta property="al:android:url" content="https://rmios.herokuapp.com/podcastshare.php?id=<?php echo $id; ?>"/>
     <meta property="al:android:package" content="org.radiomango.app"/>
     <meta property="al:android:app_name" content="Radio Mango"/>
     <meta property = "al:ios:url" content = "rmios://podcast?id=<?php echo $id; ?>" />
@@ -27,7 +27,7 @@
 	<meta name="twitter:description" content="Listen Radio Mango podcast and share it with friends." />
 	<meta name="twitter:app:name:googleplay" content="Radio Mango"/>
 	<meta name="twitter:app:id:googleplay" content="org.radiomango.app"/>
-	<meta name="twitter:app:url:googleplay" content="https://rmtest-ca950.firebaseapp.com"> 
+	<meta name="twitter:app:url:googleplay" content="https://rmios.herokuapp.com/podcastshare.php?id=<?php echo $id; ?>"> 
 	<meta name = "twitter:app:id:iphone" content = "956511007"/>
 	<meta name = "twitter:app:url:iphone" content = "rmios://podcast?id=<?php echo $id; ?>"/ >
 	<meta name = "twitter:app:id:ipad" content = "956511007" />
