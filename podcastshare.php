@@ -23,27 +23,28 @@
 
 	<!-- Meta tag for Android twitter share -->
     <meta name="twitter:card" content="app"/>
-	<meta name="twitter:site" content="@ccsmts@gmail.com"/>
+	<!--<meta name="twitter:site" content="@ccsmts@gmail.com"/>-->
 	<meta name="twitter:description" content="Listen Radio Mango podcast and share it with friends." />
 	<meta name="twitter:app:name:googleplay" content="Radio Mango"/>
 	<meta name="twitter:app:id:googleplay" content="org.radiomango.app"/>
 	<meta name="twitter:app:url:googleplay" content="https://rmtest-ca950.firebaseapp.com"> 
-
+	<meta name = "twitter:app:id:iphone" content = "956511007"/>
+	<meta name = "twitter:app:url:iphone" content = "rmios://podcast?id=<?php echo $id; ?>"/ >
+	<meta name = "twitter:app:id:ipad" content = "956511007" />
+	<meta name = "twitter:app:url:ipad" content = "rmios://podcast?id=<?php echo $id; ?>"/ >
+	<meta name = "twitter:app:name:iphone" content = " Radio Mango "/ >
+	<meta name = "twitter:app:name:ipad" content = " Radio Mango"/ >
 	<!-- Meta tag for iOS facebook share -->
 	
 	<!-- <meta property = "og:title" content = "Radio Mango" />
 	<meta property = "og:type" content = "website" /> -->
 	<meta name="apple-itunes-app" content="app-id=956511007, affiliate-data=myAffiliateData, app-argument=https://rmios.herokuapp.com/index.html"/>
 	<!-- Meta tag for iOS twitter share -->
-	<meta name = "twitter:card " content = "app"/>
+	<!--<meta name = "twitter:card " content = "app"/>
 	<meta name = "twitter:description" content = "Listen Radio Mango podcast and share it with friends." />
-	<meta name = "twitter:text:title" content = "Radio Mango" />
-	<meta name = "twitter:app:name:iphone" content = " Radio Mango "/ >
-	<meta name = "twitter:app:id:iphone" content = "956511007"/>
-	<meta name = "twitter:app:url:iphone" content = "rmios://podcast?id=<?php echo $id; ?>"/ >
-	<meta name = "twitter:app:name:ipad" content = " Radio Mango"/ >
-	<meta name = "twitter:app:id:ipad" content = "956511007" />
-	<meta name = "twitter:app:url:ipad" content = "rmios://podcast?id=<?php echo $id; ?>"/ >
+	<meta name = "twitter:text:title" content = "Radio Mango" /> -->
+	
+	
 
     <title>Radio Mango</title>
     <!-- Defult CSS -->
