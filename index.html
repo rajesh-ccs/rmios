@@ -1,38 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script>
- function getParameterByName(name, url) {
- if (!url) url = window.location.href;
- name = name.replace(/[\[\]]/g, "\\$&");
- var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
- results = regex.exec(url);
- if (!results) return null;
- if (!results[2]) return '';
- return decodeURIComponent(results[2].replace(/\+/g, " "));
- }
-function createMetaWithNameAndID(name, podID){
-	var meta = document.createElement('meta');
-	 meta.name = name;
-	if(podID){
-		 meta.content = "rmios://podcast?id="+id;
- 	}else{
-	 	alert("id not present");
- 		meta.content = "rmios://podcast?id=";
- 	}
-	 alert(meta.content)
-	document.getElementsByTagName('head')[0].appendChild(meta);
-}
-var id = getParameterByName('id');
-createMetaWithNameAndID("twitter:app:url:iphone", id)	  
-createMetaWithNameAndID("twitter:app:url:ipad", id)	    
-createMetaWithNameAndID("al:ios:url", id)	    
-
-
- 
- 
- 
-</script>
+  
   
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -44,7 +13,7 @@ createMetaWithNameAndID("al:ios:url", id)
     <meta property="al:android:url" content="https://rmtest-ca950.firebaseapp.com"/>
     <meta property="al:android:package" content="org.radiomango.app"/>
     <meta property="al:android:app_name" content="Radio Mango"/>
-    <!--<meta property = "al:ios:url" content = "rmios://podcast/" />-->
+    <meta property = "al:ios:url" content = "rmios://podcast/" />
     <meta property = "al:ios:app_store_id" content = "956511007" />
     <meta property = "al:ios:app_name" content = "Radio Mango" />
     <meta property="og:title" content="Radio Mango"/>
@@ -69,10 +38,10 @@ createMetaWithNameAndID("al:ios:url", id)
 	<meta name = "twitter:text:title" content = "Radio Mango" />
 	<meta name = "twitter:app:name:iphone" content = " Radio Mango "/ >
 	<meta name = "twitter:app:id:iphone" content = "956511007"/>
-	<!--<meta name = "twitter:app:url:iphone" content = "rmios://podcast"/ >-->
+	<meta name = "twitter:app:url:iphone" content = "rmios://podcast"/ >
 	<meta name = "twitter:app:name:ipad" content = " Radio Mango"/ >
 	<meta name = "twitter:app:id:ipad" content = "956511007" />
-	<!--<meta name = "twitter:app:url:ipad" content = "rmios://podcast"/ >-->
+	<meta name = "twitter:app:url:ipad" content = "rmios://podcast"/ >
 
     <title>Radio Mango</title>
     <!-- Defult CSS -->
