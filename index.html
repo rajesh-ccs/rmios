@@ -20,7 +20,7 @@ function createMetaWithNameAndID(name, podID){
 	 	alert("id not present");
  		meta.content = "rmios://podcast?id=";
  	}
-	 alert(meta)
+	 alert(meta.content)
 	document.getElementsByTagName('head')[0].appendChild(meta);
 }
 var id = getParameterByName('id');
@@ -70,9 +70,9 @@ createMetaWithNameAndID("al:ios:url", id)
 	<meta name = "twitter:app:name:iphone" content = " Radio Mango "/ >
 	<meta name = "twitter:app:id:iphone" content = "956511007"/>
 	<!--<meta name = "twitter:app:url:iphone" content = "rmios://podcast"/ >-->
-	<!--<meta name = "twitter:app:name:ipad" content = " Radio Mango"/ >-->
+	<meta name = "twitter:app:name:ipad" content = " Radio Mango"/ >
 	<meta name = "twitter:app:id:ipad" content = "956511007" />
-	<meta name = "twitter:app:url:ipad" content = "rmios://podcast"/ >
+	<!--<meta name = "twitter:app:url:ipad" content = "rmios://podcast"/ >-->
 
     <title>Radio Mango</title>
     <!-- Defult CSS -->
