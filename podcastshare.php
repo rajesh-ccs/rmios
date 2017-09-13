@@ -20,7 +20,7 @@
     <meta property = "al:ios:app_name" content = "Radio Mango" />
     <meta property="og:title" content="Radio Mango"/>
     <meta property="og:type" content="website"/> 
-
+    <meta property="og:image" content="http://is1.mzstatic.com/image/thumb/Purple111/v4/1d/3a/e1/1d3ae116-ac5f-4677-fc4d-0d0e44b51898/source/175x175bb.jpg" />
 	<!-- Meta tag for Android twitter share -->
     <meta name="twitter:card" content="app"/>
 	<meta name="twitter:site" content="@ @ccsmanorama"/>
